@@ -31,7 +31,7 @@ export class ArticleViewComponent implements OnInit {
     this.articlesService.getArticle(id).subscribe(
       (response: any) => {
         this.article = response.article;
-        console.log(response);
+        //console.log(response);
       }
     );
   }
